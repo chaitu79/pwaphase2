@@ -3,14 +3,14 @@ this.addEventListener('install',function(event){
   caches.open('my cache').then(function(e){
   e.addAll(['/css/form.css',
   '/css/index.css',
-  '/css/Project9.css',
+  '/css/ressume.css',
   '/js/add.js',
   '/js/main.js',
-  '/js/project9.js',
+  '/js/resume.js',
   '/js/sw.js',
   '/index.html',
   '/form.html',
-  '/Project9.html',
+  '/resume.html',
   ])
   })
   )
