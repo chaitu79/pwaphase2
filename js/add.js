@@ -39,7 +39,7 @@ image.alt=d[i].name;
 var name=document.createElement("h2");
 name.textContent=d[i].name;
 var link=document.createElement("a");
-link.href="Project9.html?id="+d[i].id;
+link.href="resume.html?id="+d[i].id;
 link.textContent="view profile";
  child.append(image);
 child.append(name);
